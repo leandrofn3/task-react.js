@@ -2,7 +2,7 @@
 
 O Task App é uma aplicação simples de lista de tarefas desenvolvida em React. Permite adicionar, editar, remover e filtrar tarefas.
 
-Este projeto foi desenvolvido como parte de um exercício de programação em conjunto com [Thamires Lopes](https://github.com/thamireslopes).
+Este projeto foi desenvolvido como parte de um exercício de programação em conjunto com [Thamires Lopes](https://github.com/thamireslopescz).
 
 ## Funcionalidades
 
