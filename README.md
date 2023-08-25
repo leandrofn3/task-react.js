@@ -1,27 +1,35 @@
-# React + TypeScript + Vite
+# Task App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O Task App é uma aplicação simples de lista de tarefas desenvolvida em React. Permite adicionar, editar, remover e filtrar tarefas.
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como parte de um exercício de programação em conjunto com [Thamires Lopes](https://github.com/thamireslopes).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- Adicionar tarefas à lista.
+- Marcar tarefas como concluídas ou pendentes.
+- Editar o texto das tarefas.
+- Remover tarefas da lista.
+- Filtrar tarefas por status (todas, completas ou pendentes).
+- Ordenar tarefas por data de criação, ordem alfabética ou status.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Pré-requisitos
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js e npm instalados em sua máquina.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Como executar
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone este repositório para o seu computador.
+2. Navegue até o diretório do projeto no terminal.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `npm start` para iniciar o servidor de desenvolvimento.
+5. Acesse a aplicação no navegador através do endereço `http://localhost:3000`.
+
+## Tecnologias Utilizadas
+
+- React
+- CSS
+
+## Autoria
+
+Este projeto foi desenvolvido por [Leandro] e [Thamires Lopes].
