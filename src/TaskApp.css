@@ -1,0 +1,136 @@
+.task-app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-input {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.task-input button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.task-input button:hover {
+  background-color: rgb(212, 208, 208);
+}
+
+.filters {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task.completed {
+  background-color: #f5f5f5;
+}
+
+.task-details {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.task-details input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-details span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.task-edit input {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.task-edit-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.task-edit-button:hover {
+  background-color: #1065c0;
+}
+
+.task-remover {
+  background-color: #f7483c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.task-remover:hover{
+  background-color: #f68a87;
+}
+
+.task-select{
+  background-color: #a6a7a8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.task-select-margin{
+  margin-left: 10px;
+}
+
+.completed-text {
+  text-decoration: line-through;
+}
+
+.task-edit button{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 398px;
+}
+
+
